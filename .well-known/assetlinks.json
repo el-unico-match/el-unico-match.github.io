@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.el-unico-match.deeplink",
+    "package_name": "com.example.deeplink",
     "sha256_cert_fingerprints":
     ["CB:56:62:97:D7:E2:39:94:F6:51:95:BC:BC:9D:39:B0:8C:B6:75:F3:B7:1D:C4:53:DC:4D:2B:D5:4D:96:77:DB"]
   }
