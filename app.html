@@ -4,8 +4,37 @@
   <meta charset="utf-8">
   <title>HTML</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilos.css">
-</head>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+    }
+    nav a {
+        margin: 0 15px;
+        color: #0066cc;
+        text-decoration: none;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .container {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .column {
+        text-align: left;
+        flex: 1;
+        padding: 20px;
+        border-radius: 10px;
+    }
+  </style></head>
 
 <body>
   <nav>
@@ -18,11 +47,11 @@
       <div class="column">
           <h2>Registrarse y recuperar contraseña.</h2>
           <ol>
-            <li><a href="app/Registrarse.html">Registrarse</a>
-            <li>Carga de datos de perfil</li>
-            <li>Recuperar Contraseña</li>
-            <li>Confirmacion de cuenta</li>
-            <li>Validacion con PIN</li>
+            <li><a href="app/Registrarse.html">Registrarse</a></li>
+            <li><a href="app/ValidarPin.html">Validacion con PIN</a></li>
+            <li><a href="app/CargarPerfil.html">Carga de datos de perfil</a></li>
+            <li><a href="app/CargarFotos.html">Carga fotos</a></li>
+            <li><a href="app/ReiniciarContrasenia.html">Reiniciar Contraseña</a></li>
           </ol>
           <hr>
           <h2>Direcciones Generales.</h2>
