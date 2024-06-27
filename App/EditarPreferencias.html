@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+    }
+    nav a {
+        margin: 0 15px;
+        color: #0066cc;
+        text-decoration: none;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .container {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .column {
+        text-align: left;
+        flex: 1;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .imagen-fija {
+        width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="../app.html">App</a>
+  </nav>
+  <h1>Guia del Unico match.</h1>
+
+    <div class="container">
+      <div class="column">
+          <h2>Editar Preferencias.</h2>
+          <ol>
+            <li><a href="MenuPerfil.html"></a>Entre al Menu de Perffl. Imagen 1</a></li>
+            <li>Selecciones la Cuarta opcion.</li>
+            <li>Se le abrira una pantalla como la de iamgen 2.</li>
+            <li>Cargue los datos a gustos.
+              <ol>
+                <li>Edad desde: tiene que ser un numero mayor a 18.</li>
+                <li>Edad hasta: tiene que ser un numero mayor a 18.</li>
+                <li>Cercania: tiene que ser un numero decimal.</li>
+              </ol>
+            </li>
+            <li>Apriete guartdar parad guardar las preferencias.</li>
+            <li>Si selecciona la flecha de arriba volvera al menu sin guardar los cambios.</a>
+          </ol>
+          <hr>
+      </div>
+      <div class="column container">
+        <div class="column">
+          <h2>Imagen 1.</h2>
+          <img src="images/MenuPerfil.png" alt="DatosDePerfil"  class="imagen-fija">
+        </div>
+        <div class="column">
+          <h2>Imagen 2.</h2>
+          <img src="images/PreferenciaDeBusqueda.png" alt="VistaPrevia1"  class="imagen-fija">
+          <hr>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

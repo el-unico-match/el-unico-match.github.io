@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+    }
+    nav a {
+        margin: 0 15px;
+        color: #0066cc;
+        text-decoration: none;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .container {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .column {
+        text-align: left;
+        flex: 1;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .imagen-fija {
+        width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="../app.html">App</a>
+  </nav>
+  <h1>Guia del Unico match.</h1>
+
+    <div class="container">
+      <div class="column">
+          <h2>Autentificacion Biometrica</h2>
+          <ol>
+            <li>Cuando inicie la aplicacion vera esta pantalla imagen 1</li>
+            <li>Aprieta el boton de Autentificar</li>
+            <li>Saldra la opcion de Auntentificacion biometricas que tenga en tu celuar, completala</li>
+            <li>La aplicacion se desbloquera</li>
+            <li>Cada vez que la aplicacion se dismunuya durante mas de un minuto se volvera bloquera.</li>
+            <li>Cuando reinicies la aplicacion esta se bloqueara</li>
+          </ol>
+          <hr>
+      </div>
+      <div class="column container">
+        <div class="column">
+          <h2>Imagen 1.</h2>
+          <img src="images/AuntentificacionBiometrica.png" alt="AutentificacionBiometrica" class="imagen-fija">
+        </div>
+      </div>
+    </div>
+</body>
+</html>
